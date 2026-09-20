@@ -1,0 +1,41 @@
+.body{
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px
+}
+.container{
+    width: 870px;
+    margin: auto;
+    background-color: #C9A227;
+    border: 1px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #FFFFFf;
+}
+.parent{
+    overflow: hidden;
+}
+.leftbox{
+    float:left;
+    width: 470px;
+    line-height: 1.6;
+    text-align: justify;
+    color:#FFFFFF;
+}
+.rightbox{
+    float:right;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    padding: 0px;
+}
+.rightbox img {
+    width:300px;
+    height: auto ;
+    display: block;
+}
