@@ -1,0 +1,68 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.khung-chinh{
+    max-width: 700px;
+    margin: 0;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+h1{
+    color: #C2185B;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.bo-cuc-hai-cot {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.cot-anh {
+    flex: 0 0 220px; 
+}
+.cot-anh img {
+    width: 200px;     
+    height: auto;    
+    display: block;
+    border-radius: 8px;
+}
+.cot-noi-dung {
+    flex: 1;
+}
+.cot-noi-dung h2{
+    background-color: #FFC0CB;
+    font-weight: bold;
+    padding:5px 12px ;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    display: inline-block;
+}
+.danh-sach-vuong{
+    list-style-type: square;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.danh-sach-tron{
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.cot-noi-dung li{
+    font-size: 15px;
+    line-height: 0.8;
+    margin-bottom: 20px;
+}
+.ban-quyen{
+    text-align: right;
+}
+.ban-quyen a {
+    color: #0000EE;
+    font-size: 14px;
+
+}
